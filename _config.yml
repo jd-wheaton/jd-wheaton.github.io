@@ -1,14 +1,14 @@
 
 # Site settings
 
-url: "http://panossakkos.github.io"
+url: "http://jd-wheaton.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-baseurl: /personal-jekyll-theme
+baseurl: ""
 
 google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 
@@ -16,12 +16,12 @@ google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 # HTML Head #
 #############
 
-author: "John Smith"
+author: "Joe Wheaton"
 lang: "en"
-title: "{ John Smith }"
+title: "{ Joe Wheaton }"
 favicon: "/img/favicon.ico"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+description: "Blog and website of Joe Wheaton, blogging mainly for a job. Opinions expressed are ludicrous."
+keywords: "wheaton, joe, personal, jekyll, theme"
 
 ################
 # Intro layout #
@@ -54,10 +54,10 @@ post-preview-words: 128
 
 paginate: 5
 
-fb-share: True
-twitter-share: True
-reddit-share: True
-disqus-shortname: "panossakkos"
+fb-share: False
+twitter-share: False
+reddit-share: False
+disqus-shortname: ""
 
 ###############
 # Life Events #
