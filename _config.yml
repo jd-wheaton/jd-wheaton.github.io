@@ -35,7 +35,7 @@ me-img: "/img/JNCIA.png"
 # Dynamic Text on the header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: False	# Shuffle the lines.
 loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
@@ -43,9 +43,9 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-#  - text: "Not everything that counts can be counted, and not everything that can be counted counts."
-#  - text: "If you want to live a happy life, tie it to a goal, not to people or objects."
-#  - text: "-- Albert Einstein"
+  - text: "Not everything that counts can be counted, and not everything that can be counted counts."
+  - text: "If you want to live a happy life, tie it to a goal, not to people or objects."
+  - text: "-- Albert Einstein"
 
 ########
 # Blog #
