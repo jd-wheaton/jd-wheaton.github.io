@@ -29,14 +29,12 @@
 
       {% endif %}
 
-=======
     {% for p in site.pages_list %}
       {% for page in site.pages %}
         {% if p[1] == page.section-type %}
           {% include {{ page.path }} %}
         {% endif %}
       {% endfor %}
->>>>>>> bbe99000ceb9f9fc96a0576792c92596971690f0
     {% endfor %}
 
     {% include footer.html %}
