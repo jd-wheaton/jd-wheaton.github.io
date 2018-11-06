@@ -2,15 +2,6 @@
 # Site settings
 
 url: "https://jd-wheaton.github.io"
-# NB! Set your site's url, otherwise stuff will break :)
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-#
-# NB! Without this *nothing* will work, because it's used in every path :)
-
 baseurl: ""
 
 # Google tracking id
@@ -31,17 +22,16 @@ author: "JD Wheaton"
 lang: "en"
 title: "[ JD Wheaton ]"
 favicon: "/img/favicon.ico"
-description: "Website of JD Wheaton"
+description: "Website of author"
 keywords: "wheaton, joe, joseph, jd, personal, jekyll, theme"
-
 
 ################
 # Header layout #
 ################
 
 black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/croc-bg.jpg"
-me-img: "/img/self_coffee_sticker.png"
+background-img: "/img/croc-bg-multiply.jpg"
+me-img: "https://www.gravatar.com/avatar/d774e223781f9fe2c91a27f5bcb320c5?s=500"
 
 ##############################
 # Dynamic Text on the Header #
@@ -51,18 +41,21 @@ dynamic-typing: False
 shuffle: False	# Shuffle the lines.
 loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
-type-speed:	10		# Default 10
+type-speed:	20		# Default 10
 start-delay: 200	# Default 200
-delete-delay: 5000	# Default 5000
+delete-delay: 7500	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: ""
-  - text: ""
+  - text: "The Internet is no longer what it once was. It has evolved."
+  - text: "Safely, securely, and speedily transmitting data..."
+  - text: "...is akin to crossing this river barefoot."
+  - text: "Is your data prepared to cross this river?"
 
 me-img: "https://www.gravatar.com/avatar/d774e223781f9fe2c91a27f5bcb320c5?s=500"
 
 ##############################
 # Color the browser elements #
 ##############################
+
 color-browser: "#000000"
 apple-status-bar-style: "black"
 
@@ -91,7 +84,7 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
+email-share: False
 fb-share: False
 twitter-share: False
 linkedin-share: False
@@ -102,7 +95,7 @@ pinterest-share: False
 pocket-share: False
 vkontakte-share: False
 
-disqus-shortname: "personal-jekyll-theme"
+disqus-shortname: "jd-wheaton-github-io"
 
 syntax-highlight: True
 
@@ -111,38 +104,37 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/career/crocs.jpg"
-    date: "2014-15 - Crocs Casino Resort"
+  - image: "/img/timeline/crocs.jpg"
+    date: "2014 to 15 - Crocs"
     description: "Systems Architect"
-  - image: "/img/career/glcomp.png"
+  - image: "/img/timeline/glcomp.png"
     date: "2014 - GLC"
     description: "Network Consultant"
-  - image: "/img/career/glc.jpg"
-    date: "2012-14 - Gun Lake Casino"
+  - image: "/img/timeline/glc.jpg"
+    date: "2012 to 14 - GLC"
     description: "Network Engineer"
-  - image: "/img/career/ge.jpg"
-    date: "2008-12 - General Electric"
+  - image: "/img/timeline/ge.jpg"
+    date: "2008 to 12 - GE TSG"
     description: "Network Engineer III"
-  - image: "/img/career/csc.png"
-    date: "2004-08 - CSC"
+  - image: "/img/timeline/csc.png"
+    date: "2004 to 08 - CSC"
     description: "Network Engineer III"
-  - image: "/img/career/iserv.png"
-    date: "2001-04 - Iserv"
-    description: "Head of Network Engineering"
-  - image: "/img/career/entre.jpg"
-    date: "1999-01 - Entre"
+  - image: "/img/timeline/iserv.png"
+    date: "2001 to 04 - Iserv"
+    description: "Senior Network Engineer"
+  - image: "/img/timeline/entre.jpg"
+    date: "1999 to 01 - Entre"
     description: "Network Engineer"
-  - image: "/img/career/gateway.jpg"
-    date: "1998-99 - Gateway"
+  - image: "/img/timeline/gateway.jpg"
+    date: "1998 to 99 - Gateway"
     description: "Network Technician"
-  - image: "/img/career/intel_p75.jpg"
-    date: "1994-98 - ECS"
+  - image: "/img/timeline/intel_p75.jpg"
+    date: "1994 to 98 - ECS"
     description: "Network Technician"
 
 # First image of the Career timeline
-career-img: "/img/career/basic.png"
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/basic.png"
 
 ###########
 # Contact #
@@ -154,26 +146,16 @@ email: "jd.wheaton@outlook.com"
 # Author Blurb #
 ################
 
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb: "JD Wheaton is an awesome person. He lives in Pure Michigan, where he works on four-dimensional engineering projects. In his spare time, he enjoys drinking tea, reading history books, and juicing for good health."
+author_blurb_image: "https://www.gravatar.com/avatar/d774e223781f9fe2c91a27f5bcb320c5?s=500"
 
 ##################
 # Social Buttons #
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/jd-wheaton/jd-wheaton.github.io"
   - title: "rss"
     url: "/feed.xml"
 
@@ -187,7 +169,7 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
+keybase-username: jdwheaton
 keybase-in-social: True
 keybase-in-footer: True
 
@@ -200,7 +182,7 @@ keybase-in-footer: True
 pages_list:
   About: 'about'
   # Blog: 'blog'
-  Career: 'career'
+  Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
@@ -216,6 +198,6 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jemoji
