@@ -6,12 +6,13 @@
 
   {% include head.html %}
 
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
 
     {% include navigation.html %}
 
     {% include header.html %}
 
+<<<<<<< HEAD
     {% for page in site.pages %}
 
       {% if page.section-type == "about" %}
@@ -28,6 +29,14 @@
 
       {% endif %}
 
+=======
+    {% for p in site.pages_list %}
+      {% for page in site.pages %}
+        {% if p[1] == page.section-type %}
+          {% include {{ page.path }} %}
+        {% endif %}
+      {% endfor %}
+>>>>>>> bbe99000ceb9f9fc96a0576792c92596971690f0
     {% endfor %}
 
     {% include footer.html %}
