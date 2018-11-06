@@ -1,16 +1,29 @@
 
 # Site settings
 
-url: "http://jd-wheaton.github.io"
+<<<<<<< HEAD
+url: "https://jd-wheaton.github.io"
+=======
+# NB! Set your site's url, otherwise stuff will break :)
 
 # If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
 
 baseurl: ""
 
-google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
+# Google tracking id
+
+google-tracking-id: ""
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
 
 #############
 # HTML Head #
@@ -23,8 +36,9 @@ favicon: "/img/favicon.ico"
 description: "Website of JD Wheaton"
 keywords: "wheaton, joe, joseph, jd, personal, jekyll, theme"
 
+
 ################
-# Intro layout #
+# Header layout #
 ################
 
 black-favicon: "/img/black-lab-glass.ico"
@@ -32,7 +46,7 @@ background-img: "../img/croc-bg.jpg"
 me-img: "/img/self_coffee_sticker.png"
 
 ##############################
-# Dynamic Text on the header #
+# Dynamic Text on the Header #
 ##############################
 
 dynamic-typing: False
@@ -43,26 +57,60 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "Not everything that counts can be counted, and not everything that can be counted counts."
-  - text: "If you want to live a happy life, tie it to a goal, not to people or objects."
-  - text: "-- Albert Einstein"
+  - text: ""
+  - text: ""
+
+me-img: "https://www.gravatar.com/avatar/d774e223781f9fe2c91a27f5bcb320c5?s=500"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
 
 ########
 # Blog #
 ########
 
-post-preview-words: 128
+enable-gesture-navigation: True
+
+post-preview-words: 96
 
 paginate: 5
 
+email-share: True
 fb-share: False
 twitter-share: False
+linkedin-share: False
 reddit-share: False
-disqus-shortname: ""
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
-###############
-# Life Events #
-###############
+disqus-shortname: "personal-jekyll-theme"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
 
 events:
   - image: "/img/career/crocs.jpg"
@@ -96,11 +144,24 @@ events:
 # First image of the Career timeline
 career-img: "/img/career/basic.png"
 
-##################
-# Contact layout #
-##################
+timeline-img: "/img/timeline/default.png"
+
+###########
+# Contact #
+###########
 
 email: "jd.wheaton@outlook.com"
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
@@ -108,13 +169,13 @@ email: "jd.wheaton@outlook.com"
 
 social:
   - title: "facebook"
-    url: "http://facebook.com/"
+    url: "https://facebook.com/"
   - title: "twitter"
-    url: "http://twitter.com/"
-  - title: "youtube"
-    url: "http://youtube.com/"
+    url: "https://twitter.com/"
   - title: "github"
-    url: "https://github.com/"
+    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+  - title: "bitcoin"
+    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   - title: "rss"
     url: "/feed.xml"
 
@@ -122,15 +183,21 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+err-404-img: "/img/labtocat.png"
+
+##################
+# GPG on Keybase #
+##################
+
+keybase-username: johnsmith
+keybase-in-social: True
+keybase-in-footer: True
 
 ################################################################################
 
-# Tread carefully if you want to change the variables below this point!
+# NB! Tread carefully if you want to change the variables below this point!
 
-# Navigation bar links
-# Blog link in the blog and post pages will point to the blog.html#blog
-# In the default page it will point to the preview of the last post
+# Sections shown in the index page
 
 pages_list:
   About: 'about'
@@ -138,12 +205,19 @@ pages_list:
   Career: 'career'
   Contact: 'contact'
 
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
 # Pagination path
-paginate_path: "blog/page:num"
+
+paginate_path: "blog/page:num/"
 
 # Enable minification SASS
+
 sass:
   style: compressed
 
-# Exclusion list from the generated _site
-exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
+gems:
+  - jekyll-paginate
+  - jemoji
