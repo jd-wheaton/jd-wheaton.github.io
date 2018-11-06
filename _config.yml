@@ -95,6 +95,8 @@ events:
 
 # First image of the Career timeline
 career-img: "/img/career/basic.png"
+date: "1994"
+description: "A network adventurer was born early spring 1994 the day I installed Slackware 1.0 and OS2 Warp 4.0 Server, the rest is history."
 
 ##################
 # Contact layout #
