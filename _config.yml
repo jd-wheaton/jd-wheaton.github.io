@@ -95,8 +95,6 @@ events:
 
 # First image of the Career timeline
 career-img: "/img/career/basic.png"
-date: "1994"
-description: "A network adventurer was born early spring 1994 upon installing Slackware 1.0 making my first PPP connection to the Internet on a Non-Microsoft operating system."
 
 ##################
 # Contact layout #
