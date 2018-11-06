@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/jdwheaton
+--------------------------------------------------------------------
+
+
+I hereby claim:
+
+
+  * I am an admin of https://jd-wheaton.github.io
+  * I am jdwheaton (https://keybase.io/jdwheaton) on keybase.
+  * I have a public key ASBa4NtouM3U11SR1mdGANB_cnWyV7XSzzsUHVJaeTa0ewo
+
+
+To do so, I am signing this object:
+
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209f7bdf87601d6dd32df395b806a761f408bc0cffd8051f701fbac071bbc023c90a",
+      "host": "keybase.io",
+      "kid": "01205ae0db68b8cdd4d75491d6674600d07f7275b257b5d2cf3b141d525a7936b47b0a",
+      "uid": "fceb7fe93b0fe669d236f734b919f219",
+      "username": "jdwheaton"
+    },
+    "merkle_root": {
+      "ctime": 1541546374,
+      "hash": "4edbf9320e6b689144eef3c5f62660a9c7058f007dcb8d94e9d90782fafe76d253d24190cf125e280ec3b3da524317b386f621257912a48765b93e2352047d91",
+      "hash_meta": "5ef9cbee6c4a33bba1ce64a5c8df4fea0fafce6dd7e09aeb055dda270e03fd4e",
+      "seqno": 3911581
+    },
+    "service": {
+      "entropy": "iDagvMSmc2VwenikVF6z71b9",
+      "hostname": "jd-wheaton.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.8.0"
+  },
+  "ctime": 1541546398,
+  "expire_in": 504576000,
+  "prev": "165142c94842ee9471943576f4ba083a2d405598f6aa92ae16d3914391750805",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+
+which yields the signature:
+
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgWuDbaLjN1NdUkdZnRgDQf3J1sle10s87FB1SWnk2tHsKp3BheWxvYWTESpcCB8QgFlFCyUhC7pRxlDV29LoIOi1AVZj2qpKuFtORQ5F1CAXEIOhyVR3nO+jwU7D1R/3eLiq7vV2Z4phEA+sJyD5vgqsDAgHCo3NpZ8RAoHLmBjE7wb0y44G8egoD6sDWhFil4QLO/kVzYmKmC48/DBDWAqajesVEZAm+nFuT5vnlB8iOBiL8uPN/QnGfCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBjfemr7s0lsQjC/b2/KaBKzqhauWIOekldrmwvkSPaoo3RhZ80CAqd2ZXJzaW9uAQ==
+
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+
+View my publicly-auditable identity here: https://keybase.io/jdwheaton
+
+
+==================================================================
