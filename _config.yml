@@ -16,12 +16,12 @@ google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 # HTML Head #
 #############
 
-author: "Joe Wheaton"
+author: "JD Wheaton"
 lang: "en"
-title: "{ Joe Wheaton }"
+title: "[ JD Wheaton ]"
 favicon: "/img/favicon.ico"
-description: "Blog and website of Joe Wheaton, blogging for self. Opinions expressed are ludicrous."
-keywords: "wheaton, joe, personal, jekyll, theme"
+description: "Website of JD Wheaton"
+keywords: "wheaton, joe, joseph, jd, personal, jekyll, theme"
 
 ################
 # Intro layout #
