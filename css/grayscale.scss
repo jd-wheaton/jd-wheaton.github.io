@@ -177,15 +177,12 @@ a {
             font-size: 40px;
         }
         .intro-text {
-<<<<<<< HEAD
-			font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
             font-size: 14px;
-=======
             font-size: 18px;
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }
->>>>>>> bbe99000ceb9f9fc96a0576792c92596971690f0
         }
     }
     @media(min-width:768px) {
