@@ -37,7 +37,7 @@ me-img: "https://www.gravatar.com/avatar/d774e223781f9fe2c91a27f5bcb320c5?s=500"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: False
+dynamic-typing: True
 shuffle: False	# Shuffle the lines.
 loop: True
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
@@ -45,10 +45,10 @@ type-speed:	20		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 7500	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "The Internet is no longer what it once was. It has evolved."
-  - text: "Safely, securely, and speedily transmitting data..."
-  - text: "...is akin to crossing this river barefoot."
-  - text: "Is your data prepared to cross this river?"
+  - text: "So far as the theories of mathematics are about reality,"
+  - text: "they are not certain; so far as they are certain, they are not"
+  - text: "about reality."
+  - text: "-A. Einstein"
 
 me-img: "https://www.gravatar.com/avatar/d774e223781f9fe2c91a27f5bcb320c5?s=500"
 
