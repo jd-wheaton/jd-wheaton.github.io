@@ -45,10 +45,7 @@ type-speed:	20		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 7500	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "So far as the theories of mathematics are about reality,"
-  - text: "they are not certain; so far as they are certain, they are not"
-  - text: "about reality."
-  - text: "-A. Einstein"
+  - text: "So far as the theories of mathematics are about reality, they are not certain; so far as they are certain, they are not about reality. -A. Einstein"
 
 me-img: "https://www.gravatar.com/avatar/d774e223781f9fe2c91a27f5bcb320c5?s=500"
 
