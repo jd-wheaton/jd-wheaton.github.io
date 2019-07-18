@@ -151,8 +151,8 @@ author_blurb_image: "https://www.gravatar.com/avatar/d774e223781f9fe2c91a27f5bcb
 social:
   - title: "github"
     url: "https://github.com/jd-wheaton"
-  - title: "rss"
-    url: "/feed.xml"
+#  - title: "rss"
+#    url: "/feed.xml"
 
 ############
 # 404 page #
