@@ -37,7 +37,7 @@ me-img: "https://www.gravatar.com/avatar/d774e223781f9fe2c91a27f5bcb320c5?s=500"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: False	# Shuffle the lines.
 loop: True
 loop-count:	1 # Set False for infinite loop, or set any number for finite loop.
